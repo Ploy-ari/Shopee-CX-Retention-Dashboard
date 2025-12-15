@@ -45,4 +45,127 @@ Shopee-CX-Retention-Dashboard/
     └─ shopee_review_analysis_colab.py
 archive/ contains experimental notebooks and intermediate work.
 The main workflow is inside Shopee_CX_Retention_Analysis.ipynb.
+```
+---
+
+## 🔍 Data & Metrics
+Data Sources
+
+- Exported Shopee order data from the Home category
+
+- Product-level data for analyzing category / brand performance
+
+- Transformed tables used for retention & cohort-style analysis
+
+Key Metrics
+
+-Customer Satisfaction (CSAT) – based on star ratings & review text
+
+- Repeat Purchase Rate – customers who come back to buy again
+
+- Order Fulfillment & Cancellation – success vs failed orders
+
+- Revenue by Product / Category – which items drive most value
+
+---
+
+## 📘 Analysis Workflow
+
+The main notebook Shopee_CX_Retention_Analysis.ipynb includes:
+
+1. Data Cleaning
+
+- Fixing data types (dates, numeric fields, categories)
+
+- Handling missing values and inconsistent labels
+
+- Merging order-level and product-level datasets
+
+2. Exploratory Data Analysis (EDA)
+
+- Customer distributions (location, spending, purchase frequency)
+
+- Product / category performance
+
+- Time-based trends (daily / monthly orders and revenue)
+
+3. Customer Retention & Segmentation
+
+- Identifying one-time vs repeat customers
+
+- Simple cohort-style views based on first purchase month
+
+- Highlighting segments with high churn risk
+
+4. Insights & Recommendations
+
+- Summarizing key pain points in the customer journey
+
+- Suggesting actions to improve satisfaction & retention
+
+---
+
+## 📊 Dashboard & Presentation
+
+The interactive Power BI file is not included here, but the main views and KPIs are summarized in:
+
+- reports/Shopee_CX_Retention_Presentation.pdf
+
+Dashboard structure:
+
+- Overview page – high-level KPIs and trends
+
+- Customer page – segmentation and retention overview
+
+- Pain points page – cancellations, low ratings, and review insights
+
+These pages are designed to be readable by business stakeholders without deep technical knowledge.
+
+---
+
+## 🛠️ Tools & Technologies
+
+- Python: pandas, numpy, matplotlib
+
+- Jupyter / VS Code for notebook-based analysis
+
+- Excel / Google Sheets for initial data handling
+
+- Power BI for dashboard creation and KPI visualization
+
+- Git & GitHub for version control and portfolio management
+
+---
+
+## 🚀 How to Run the Notebook
+
+This repository is mainly intended as a portfolio of my data analytics workflow.
+If you want to explore or reproduce the analysis, you can follow these steps:
+
+1. Clone the repository
+
+```text
+git clone https://github.com/Ploy-ari/Shopee-CX-Retention-Dashboard.git
+cd Shopee-CX-Retention-Dashboard
+```
+
+2. (Optional) Create and activate a Python environment
+
+```text
+python -m venv venv
+.\venv\Scripts\activate      # on Windows
+# source venv/bin/activate   # on macOS / Linux
+```
+
+3. Install required libraries
+
+```text
+pip install pandas numpy matplotlib
+```
+
+4. Open the notebook
+
+- Open Shopee_CX_Retention_Analysis.ipynb in Jupyter Notebook / JupyterLab / VS Code
+and run the cells step by step to reproduce the analysis.
+
 
