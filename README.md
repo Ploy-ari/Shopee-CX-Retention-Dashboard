@@ -46,24 +46,22 @@ Shopee-CX-Retention-Dashboard/
 archive/ contains experimental notebooks and intermediate work.
 The main workflow is inside Shopee_CX_Retention_Analysis.ipynb.
 
----
+
 
 ## 🔍 Data & Metrics
-Data Sources
-- Exported Shopee order data from the Home category
 
--Product-level data for analyzing category / brand performance
+### Data Sources
 
--Transformed tables used for retention & cohort-style analysis
+- Exported Shopee order data from the **Home** category  
+- Product-level data for analyzing **category / brand performance**  
+- Transformed tables used for **retention & cohort-style** analysis  
 
-Key Metrics
--Customer Satisfaction (CSAT) – based on star ratings & review text
+### Key Metrics
 
--Repeat Purchase Rate – customers who come back to buy again
-
--Order Fulfillment & Cancellation – success vs failed orders
-
--Revenue by Product / Category – which items drive most value
+- **Customer Satisfaction (CSAT)** – based on star ratings & review text  
+- **Repeat Purchase Rate** – customers who come back to buy again  
+- **Order Fulfillment & Cancellation** – success vs failed orders  
+- **Revenue by Product / Category** – which items drive most value  
 
 ---
 
